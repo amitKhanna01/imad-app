@@ -25,7 +25,7 @@ app.get('/amit-khanna',function(req,res){
     
 });
 
-app.get('/Yash-Patel',function(req,res){
+app.get('/YashPatel',function(req,res){
     res.send("Yash Patel Page");
     
     
