@@ -20,7 +20,7 @@ app.get('/article-one',function(req,res){
 });
 
 app.get('/amit-khanna',function(req,res){
-    res.send("Amit Khanna Page");
+  res.sendFile(path.join(__dirname, 'ui', 'amit-khanna.html'));
     
     
 });
