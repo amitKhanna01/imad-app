@@ -8,5 +8,5 @@ element.innerHTML="Amit Khanna";
 var img =document.getElementById('amit');
 img.onclick=function()
 {
-    imgmedium.style.marginleft='100px';
+    img.style.marginleft='100px';
 };
